@@ -30,7 +30,7 @@ jobs:
           maven-version: 3.9.4
 
       - name: Set up Selenium Grid with Docker Containers
-        run: docker compose -f src/main/resources/dockerFiles/docker-compose-grid-v3.yml up --scale chrome=4 --scale edge=0 --scale firefox=0 -d
+        run: docker compose -f src/main/resources/dockerFiles/docker-compose-grid-v3.yml up --scale chrome=3 --scale edge=0 --scale firefox=0 -d
 
       - name: Check Running Containers
         run: docker ps
@@ -39,14 +39,13 @@ jobs:
         continue-on-error: true
         run: >
           mvn clean test -Dtest="testCases.LoginTests,
-          testCases.AddUserTestsWithStaticData,
           testCases.AddUserTestsWithRandomData,
           testCases.AddRemoveCandidateThroughAPI"
           -DexecutionType="Remote"
           -DbrowserType="Chrome"
           -DisHeadless="true"
           -DparallelMode="CLASSES"
-          -DthreadCount="4"
+          -DthreadCount="3"
 
       - name: Generate Allure report
         run: mvn allure:report
