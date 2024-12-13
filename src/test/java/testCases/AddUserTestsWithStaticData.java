@@ -11,6 +11,7 @@ import yehiaEngine.managers.JsonManager;
 import yehiaEngine.managers.SessionManager;
 
 import static yehiaEngine.driverManager.BrowserFactory.getDriver;
+import static yehiaEngine.utilities.RandomDataGenerator.generateUniqueName;
 
 public class AddUserTestsWithStaticData extends BaseTest {
     //Variables
@@ -47,6 +48,9 @@ public class AddUserTestsWithStaticData extends BaseTest {
                 .validateEmployeeDetailsFromResponse()
                 .getEmployeeFullName();
         json.setData("NewUserInfo.EmployeeName",employeeFullName);
+
+        //Add Unique Username to Test Data JsonFile to avoid Duplication Errors
+        json.setData("NewUserInfo.UserName",generateUniqueName());
     }
 
     @Test
