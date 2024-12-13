@@ -106,17 +106,17 @@ public class AdminPage extends HomePage{
         return this;
     }
 
-    @Step("Assert Total Number Of Records Increased by 1")
-    public AdminPage assertTotalRecordNumberIncreasedBy1(int oldValue,int newValue)
+    @Step("Verify Total Number Of Records Increased by 1")
+    public AdminPage verifyTotalRecordNumberIncreasedBy1(int oldValue,int newValue)
     {
-        CustomAssert.assertEquals(newValue,oldValue+1);
+        CustomSoftAssert.assertEquals(newValue,oldValue+1);
         return this;
     }
 
-    @Step("Assert Total Number Of Records Decreased by 1")
-    public AdminPage assertTotalRecordNumberDecreasedBy1(int oldValue,int newValue)
+    @Step("Verify Total Number Of Records Decreased by 1")
+    public AdminPage verifyTotalRecordNumberDecreasedBy1(int oldValue,int newValue)
     {
-        CustomAssert.assertEquals(newValue,oldValue-1);
+        CustomSoftAssert.assertEquals(newValue,oldValue-1);
         return this;
     }
 

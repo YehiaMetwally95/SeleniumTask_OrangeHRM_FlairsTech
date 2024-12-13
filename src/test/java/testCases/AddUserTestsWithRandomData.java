@@ -79,9 +79,9 @@ public class AddUserTestsWithRandomData extends BaseTest {
         new AdminPage(getDriver(isolatedDriver))
                 .getCurrentTotalNumberOfRecords();
 
-        //Assert The Total Records is Increased by 1
+        //Verify The Total Records is Increased by 1
         new AdminPage(getDriver(isolatedDriver))
-                .assertTotalRecordNumberIncreasedBy1(oldTotalRecords,newTotalRecords);
+                .verifyTotalRecordNumberIncreasedBy1(oldTotalRecords,newTotalRecords);
 
         //Open Admin Page and Search for User by Username Then Delete it
         //Retrieve Current Total Records
@@ -93,8 +93,8 @@ public class AddUserTestsWithRandomData extends BaseTest {
                 .deleteUsernameRecord()
                 .getCurrentTotalNumberOfRecords();
 
-        //Assert The Total Records is Decreased by 1
+        //Verify The Total Records is Decreased by 1
         new AdminPage(getDriver(isolatedDriver))
-                .assertTotalRecordNumberDecreasedBy1(oldTotalRecords,newTotalRecords);
+                .verifyTotalRecordNumberDecreasedBy1(oldTotalRecords,newTotalRecords);
     }
 }
