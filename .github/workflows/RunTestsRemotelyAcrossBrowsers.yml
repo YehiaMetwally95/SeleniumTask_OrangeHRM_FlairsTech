@@ -94,7 +94,7 @@ jobs:
       - name: Run tests
         continue-on-error: true
         run: >
-          mvn clean test -Dtest="testCases.AddUserTestsWithRandomData"
+          mvn clean test -Dtest="testCases.AddUserTestsWithStaticData"
           -DexecutionType="Remote"
           -DbrowserType="Edge"
           -DisHeadless="true"
@@ -149,7 +149,7 @@ jobs:
       - name: Run tests
         continue-on-error: true
         run: >
-          mvn clean test -Dtest="testCases.AddUserTestsWithRandomData"
+          mvn clean test -Dtest="testCases.LoginTests"
           -DexecutionType="Remote"
           -DbrowserType="Firefox"
           -DisHeadless="true"
