@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf38b3ba-dbf4-41e7-a6e5-802fcf46e20b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Open_Allure_Report.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objectModelsForAPIs/AddEmployeeRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objectModelsForAPIs/AddEmployeeResponseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojoClassesForAPIs/AddEmployeeRequestPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojoClassesForAPIs/AddEmployeeResponsePojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/SessionData/SessionDataForAdmin.json" afterDir="false" />
+    <list default="true" id="cf38b3ba-dbf4-41e7-a6e5-802fcf46e20b" name="Changes" comment="Test">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/RunTestsRemotelyInParallel.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Configuration - closeBrowser-AddRemoveCandidateThroughAPI-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Configuration - loginWithValidUser-AddRemoveCandidateThroughAPI-2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Configuration - setUpAndOpenBrowser-AddRemoveCandidateThroughAPI-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Test - addRemoveNewCandidateWithRandomDataThroughAPI.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/propertiesFiles/Parallelization.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/propertiesFiles/Parallelization.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/propertiesFiles/WebApp.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/propertiesFiles/WebApp.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/screenshots/SuccessfulTests/addRemoveNewCandidateWithRandomDataThroughAPI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/SessionData/SessionDataForAdmin.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SessionData/SessionDataForAdmin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestDataJsonFiles/AddUserTestsWithStaticData_TestData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestDataJsonFiles/AddUserTestsWithStaticData_TestData.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +32,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "YehiaMetwally95"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YehiaMetwally95&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/YehiaMetwally95/SeleniumTask_OrangeHrm_FlairsTech",
-    "accountId": "8e0ad561-fc41-4f51-bc0c-601cdc47f971"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YehiaMetwally95/SeleniumTask_OrangeHrm_FlairsTech&quot;,
+    &quot;accountId&quot;: &quot;8e0ad561-fc41-4f51-bc0c-601cdc47f971&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2qA6sdxF75ZESwF4jJP40W4hXca" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -60,15 +58,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.AddRemoveCandidateThroughAPI.addRemoveNewCandidateWithRandomDataThroughAPI.executor": "Run",
+    "TestNG.AddRemoveCandidateThroughAPI.executor": "Run",
     "TestNG.AddUserTests.addNewUserWithStaticData.executor": "Run",
     "TestNG.AddUserTestsWithRandomData.addNewUserWithRandomData.executor": "Run",
     "TestNG.AddUserTestsWithRandomData.executor": "Run",
     "TestNG.AddUserTestsWithStaticData.addNewUserWithStaticData.executor": "Run",
     "TestNG.AddUserTestsWithStaticData.executor": "Run",
     "TestNG.LoginTests.loginWithValidUser.executor": "Run",
+    "TestNG.testCases.AddUserTestsWithRandomData and 1 more.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Automation_Projects/SeleniumTask_OrangeHrm_FlairsTech/src/test/resources/TestDataJsonFiles",
+    "last_opened_file_path": "D:/Automation_Projects/SeleniumTask_OrangeHrm_FlairsTech",
     "onboarding.tips.debug.path": "D:/Automation_Projects/SeleniumTask_OrangeHrm_FlairsTech/src/main/java/io/github/YehiaMetwally95/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -77,6 +77,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Automation_Projects\SeleniumTask_OrangeHrm_FlairsTech" />
       <recent name="D:\Automation_Projects\SeleniumTask_OrangeHrm_FlairsTech\src\test\resources\TestDataJsonFiles" />
       <recent name="D:\Automation_Projects\SeleniumTask_OrangeHrm_FlairsTech\src\main\java\objectModelsForAPIs" />
       <recent name="D:\Automation_Projects\SeleniumTask_OrangeHrm_FlairsTech\src\main\java\pojoClassesForAPIs" />
@@ -93,7 +94,24 @@
       <recent name="testCases" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddRemoveCandidateThroughAPI.addRemoveNewCandidateWithRandomDataThroughAPI">
+  <component name="RunManager" selected="TestNG.testCases.AddUserTestsWithRandomData and 1 more">
+    <configuration name="AddRemoveCandidateThroughAPI" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTask_OrangeHrm_FlairsTech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.AddRemoveCandidateThroughAPI" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddRemoveCandidateThroughAPI.addRemoveNewCandidateWithRandomDataThroughAPI" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTask_OrangeHrm_FlairsTech" />
       <extension name="coverage">
@@ -147,48 +165,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddUserTestsWithStaticData" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="testCases.AddUserTestsWithRandomData and 1 more" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTask_OrangeHrm_FlairsTech" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.AddUserTestsWithStaticData" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="PATTERN" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddUserTestsWithStaticData.addNewUserWithStaticData" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTask_OrangeHrm_FlairsTech" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.AddUserTestsWithStaticData" />
-      <option name="METHOD_NAME" value="addNewUserWithStaticData" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <patterns>
+        <pattern testClass="testCases.AddUserTestsWithRandomData" />
+        <pattern testClass="testCases.AddUserTestsWithStaticData" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.testCases.AddUserTestsWithRandomData and 1 more" />
+        <item itemvalue="TestNG.AddUserTestsWithRandomData" />
+        <item itemvalue="TestNG.AddRemoveCandidateThroughAPI" />
         <item itemvalue="TestNG.AddRemoveCandidateThroughAPI.addRemoveNewCandidateWithRandomDataThroughAPI" />
         <item itemvalue="TestNG.AddUserTestsWithRandomData.addNewUserWithRandomData" />
-        <item itemvalue="TestNG.AddUserTestsWithStaticData" />
-        <item itemvalue="TestNG.AddUserTestsWithStaticData.addNewUserWithStaticData" />
-        <item itemvalue="TestNG.AddUserTestsWithRandomData" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +197,20 @@
       <option name="presentableId" value="Default" />
       <updated>1734093241496</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test">
+      <option name="closed" value="true" />
+      <created>1734128216380</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734128216380</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
