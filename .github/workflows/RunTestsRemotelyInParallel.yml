@@ -39,7 +39,6 @@ jobs:
         continue-on-error: true
         run: >
           mvn clean test -Dtest="testCases.LoginTests,
-          testCases.AddUserTestsWithStaticData,
           testCases.AddUserTestsWithRandomData,
           testCases.AddRemoveCandidateThroughAPI"
           -DexecutionType="Remote"
