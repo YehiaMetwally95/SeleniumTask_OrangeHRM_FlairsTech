@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf38b3ba-dbf4-41e7-a6e5-802fcf46e20b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/RunTestsRemotelyInParallel.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/RunTestsRemotelyInParallel.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/RunTestsRemotelySequentially.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/RunTestsRemotelySequentially.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +219,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734131274489</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Yaml File">
+      <option name="closed" value="true" />
+      <created>1734131296106</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734131296106</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add Yaml File">
+      <option name="closed" value="true" />
+      <created>1734131341867</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734131341867</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

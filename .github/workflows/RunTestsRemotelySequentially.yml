@@ -43,7 +43,7 @@ jobs:
           testCases.AddUserTestsWithRandomData,
           testCases.AddRemoveCandidateThroughAPI"
           -DexecutionType="Remote"
-          -DbrowserType="Chrome"
+          -DbrowserType="Firefox"
           -DisHeadless="true"
           -DparallelMode="NONE"
 
