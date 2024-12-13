@@ -1,0 +1,28 @@
+{
+  "ValidUsers": [
+    {
+      "Username": "Admin",
+      "Password": "admin123"
+    }
+  ],
+  "Headers": {
+    "LoginHeader": "Login",
+    "AdminHeader": "Admin",
+    "AddUserHeader": "Add User"
+  },
+  "NewUserInfo": {
+    "UserRole": "Admin",
+    "EmployeeName": "Jarred Rosalee Lindsay",
+    "Status": "Enabled",
+    "UserName": "Yehia.User5",
+    "Password": "y123456789",
+    "ConfirmPassword": "y123456789"
+  },
+  "APIResponseCodes": {
+    "AddEmployee": "200"
+  },
+  "TotalEmployeeRecords": {
+    "OldValue": "28",
+    "NewValue": "27"
+  }
+}

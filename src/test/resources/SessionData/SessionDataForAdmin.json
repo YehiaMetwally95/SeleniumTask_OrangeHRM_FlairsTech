@@ -1,0 +1,14 @@
+{
+  "username": "Admin",
+  "cookies_data": [
+    {
+      "name": "orangehrm",
+      "value": "miit26fvl7t1dqt9jgrrslo421",
+      "path": "/web",
+      "domain": "opensource-demo.orangehrmlive.com",
+      "expiry": "null",
+      "isSecure": true,
+      "isHttpOnly": true
+    }
+  ]
+}

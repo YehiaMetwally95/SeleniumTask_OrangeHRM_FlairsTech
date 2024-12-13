@@ -1,0 +1,13 @@
+{
+  "ValidUsers": [
+    {
+      "Username": "Admin",
+      "Password": "admin123"
+    }
+  ],
+
+  "Headers":
+  {
+    "LoginHeader": "Login"
+  }
+}

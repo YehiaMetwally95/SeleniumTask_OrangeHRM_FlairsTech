@@ -1,0 +1,33 @@
+[DEBUG] - Evaluating path: $['cookies_data'][0]['name'] - [00:14:58] - CompiledPath 
+[INFO] - Getting Test Data [orangehrm] by Json Path [cookies_data[0].name] - - [00:14:58] - LogHelper 
+[DEBUG] - Evaluating path: $['cookies_data'][0]['value'] - [00:14:58] - CompiledPath 
+[INFO] - Getting Test Data [miit26fvl7t1dqt9jgrrslo421] by Json Path [cookies_data[0].value] - - [00:14:58] - LogHelper 
+[INFO] - Sending Auth Post Request for URL [https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/candidates] - - [00:15:07] - LogHelper 
+[INFO] - Request Body : {"firstName":"Minna","middleName":"Lauren","lastName":"Newton","email":"test1458373@gmail.com","contactNumber":"1458375","keywords":"Cummerata Inc","comment":"Eligendi cum voluptatem eos voluptatem et aut.","dateOfApplication":"2024-11-12","consentToKeepData":false,"vacancyId":1} - - [00:15:07] - LogHelper 
+[INFO] - Response Body : {"data":{"id":95,"firstName":"Minna","middleName":"Lauren","lastName":"Newton","email":"test1458373@gmail.com"},"meta":[],"rels":[]} - - [00:15:07] - LogHelper 
+[INFO] - Soft Asserting actual result: [Minna] equals expected result: [Minna] - - [00:15:07] - LogHelper 
+[INFO] - Soft Assertion Passed - - [00:15:07] - LogHelper 
+[INFO] - Soft Asserting actual result: [Lauren] equals expected result: [Lauren] - - [00:15:07] - LogHelper 
+[INFO] - Soft Assertion Passed - - [00:15:07] - LogHelper 
+[INFO] - Soft Asserting actual result: [Newton] equals expected result: [Newton] - - [00:15:07] - LogHelper 
+[INFO] - Soft Assertion Passed - - [00:15:07] - LogHelper 
+[INFO] - Soft Asserting actual result: [test1458373@gmail.com] equals expected result: [test1458373@gmail.com] - - [00:15:07] - LogHelper 
+[INFO] - Soft Assertion Passed - - [00:15:07] - LogHelper 
+[DEBUG] - Evaluating path: $['APIResponseCodes']['AddCandidate'] - [00:15:07] - CompiledPath 
+[INFO] - Getting Test Data [200] by Json Path [APIResponseCodes.AddCandidate] - - [00:15:07] - LogHelper 
+[INFO] - Soft Asserting actual result: [200] equals expected result: [200] - - [00:15:07] - LogHelper 
+[INFO] - Soft Assertion Passed - - [00:15:07] - LogHelper 
+[DEBUG] - Evaluating path: $['cookies_data'][0]['name'] - [00:15:07] - CompiledPath 
+[INFO] - Getting Test Data [orangehrm] by Json Path [cookies_data[0].name] - - [00:15:07] - LogHelper 
+[DEBUG] - Evaluating path: $['cookies_data'][0]['value'] - [00:15:07] - CompiledPath 
+[INFO] - Getting Test Data [miit26fvl7t1dqt9jgrrslo421] by Json Path [cookies_data[0].value] - - [00:15:07] - LogHelper 
+[INFO] - Sending Auth Delete Request for URL [https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/candidates] - - [00:15:07] - LogHelper 
+[INFO] - Request Body : {"ids":[95]} - - [00:15:07] - LogHelper 
+[INFO] - Response Body : {"data":["95"],"meta":[],"rels":[]} - - [00:15:07] - LogHelper 
+[DEBUG] - Evaluating path: $['APIResponseCodes']['RemoveCandidate'] - [00:15:07] - CompiledPath 
+[INFO] - Getting Test Data [200] by Json Path [APIResponseCodes.RemoveCandidate] - - [00:15:07] - LogHelper 
+[INFO] - Soft Asserting actual result: [200] equals expected result: [200] - - [00:15:07] - LogHelper 
+[INFO] - Soft Assertion Passed - - [00:15:07] - LogHelper 
+[INFO] - Soft Asserting actual result: [95] equals expected result: [95] - - [00:15:07] - LogHelper 
+[INFO] - Soft Assertion Passed - - [00:15:07] - LogHelper 
+[INFO] - Capturing Screenshot for Succeeded Scenario - - [00:15:09] - LogHelper 

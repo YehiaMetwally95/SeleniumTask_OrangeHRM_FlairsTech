@@ -1,0 +1,18 @@
+{
+  "ValidUsers": [
+    {
+      "Username": "Admin",
+      "Password": "admin123"
+    }
+  ],
+
+  "APIResponseCodes": {
+    "AddCandidate": "200",
+    "RemoveCandidate": "200"
+  },
+
+  "Headers": {
+    "LoginHeader": "Login",
+    "AdminHeader": "Admin",
+  }
+}

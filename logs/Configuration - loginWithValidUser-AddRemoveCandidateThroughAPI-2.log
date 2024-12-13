@@ -1,0 +1,22 @@
+[DEBUG] - Evaluating path: $['Headers']['LoginHeader'] - [00:14:52] - CompiledPath 
+[INFO] - Getting Test Data [Login] by Json Path [Headers.LoginHeader] - - [00:14:52] - LogHelper 
+[INFO] - Getting Text [Login] from Element located by [By.cssSelector: div .orangehrm-login-title] - - [00:14:53] - LogHelper 
+[INFO] - Soft Asserting actual result: [Login] equals expected result: [Login] - - [00:14:53] - LogHelper 
+[INFO] - Soft Assertion Passed - - [00:14:53] - LogHelper 
+[DEBUG] - Evaluating path: $['ValidUsers'][0]['Username'] - [00:14:53] - CompiledPath 
+[INFO] - Getting Test Data [Admin] by Json Path [ValidUsers[0].Username] - - [00:14:53] - LogHelper 
+[DEBUG] - Evaluating path: $['ValidUsers'][0]['Password'] - [00:14:53] - CompiledPath 
+[INFO] - Getting Test Data [admin123] by Json Path [ValidUsers[0].Password] - - [00:14:53] - LogHelper 
+[INFO] - Clearing the Text on Element [Username] - - [00:14:53] - LogHelper 
+[INFO] - Typing [Admin] on Element [Username] - - [00:14:53] - LogHelper 
+[INFO] - Clearing the Text on Element [Password] - - [00:14:54] - LogHelper 
+[INFO] - Typing [admin123] on Element [Password] - - [00:14:54] - LogHelper 
+[INFO] - Clicking on Element [Login] - - [00:14:56] - LogHelper 
+[INFO] - The Element [client brand banner] is Displayed - - [00:14:56] - LogHelper 
+[INFO] - Soft Asserting condition is True - - [00:14:56] - LogHelper 
+[INFO] - Soft Assertion Passed - - [00:14:56] - LogHelper 
+[DEBUG] - Evaluating path: $['ValidUsers'][0]['Username'] - [00:14:56] - CompiledPath 
+[INFO] - Getting Test Data [Admin] by Json Path [ValidUsers[0].Username] - - [00:14:56] - LogHelper 
+[INFO] - Getting Cookies Data from Current Browser Session - - [00:14:56] - LogHelper 
+[INFO] - Writing Into Json File By filePath [src/test/resources/SessionData/SessionDataForAdmin.json] - - [00:14:57] - LogHelper 
+[INFO] - Storing Cookies Data Into Json Session Files - - [00:14:57] - LogHelper 
