@@ -41,7 +41,7 @@ jobs:
           mvn clean test -Dtest="testCases.LoginTests,
           testCases.AddUserTestsWithStaticData,
           testCases.AddUserTestsWithRandomData,
-          testCases.AddRemoveCandidateThroughAPI
+          testCases.AddRemoveCandidateThroughAPI"
           -DexecutionType="Remote"
           -DbrowserType="Chrome"
           -DisHeadless="true"
