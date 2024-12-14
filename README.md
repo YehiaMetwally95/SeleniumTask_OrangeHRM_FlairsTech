@@ -46,13 +46,17 @@
     - Combined Report that Include All Tests that runs on all Jobs
 
 ## Installation
-##### 1- Docker Must be Installed and Run on your machine
-##### 2- To Setup Selenium Grid with Docker Container in order to Run Tests Remotely, Just run the following command in Intellij Terminal
+##### 1- Download Allure Report from here https://github.com/allure-framework/allure2/releases
+##### 2- Download Docker from here https://docs.docker.com/desktop/setup/install/windows-install/
+##### 3- Download Apache Maven from here https://maven.apache.org/download.cgi
+##### 4- Add All bin Directories of Allure , Docker & Maven in Environmental Variables like the below screen ![img_1.png](img_1.png)
+##### 5- Docker Must be Run on your machine
+##### 6 To Setup Selenium Grid with Docker Container in order to Run Tests Remotely, Just run the following command in Intellij Terminal
 ```bash
 docker compose -f src/main/resources/dockerFiles/docker-compose-grid-v3.yml up --scale chrome=2 --scale edge=0 --scale firefox=0 -d 
 ```
-##### 3- After The Setup, To be Able to Run Remotely, The flags "executionType" & "isHeadless" in Configuration.properties shall be set with "Remote" & "true"
-##### 4- After Finish the Test Execution, Its Better to CleanUp and Stop running the Docker Containers by running the following command in Terminal
+##### 7- After The Setup, To be Able to Run Remotely, The flags "executionType" & "isHeadless" in Configuration.properties shall be set with "Remote" & "true"
+##### 8- After Finish the Test Execution, Its Better to CleanUp and Stop running the Docker Containers by running the following command in Terminal
 ```bash
 docker compose -f src/main/resources/dockerFiles/docker-compose-grid-v3.yml down
 ```  
